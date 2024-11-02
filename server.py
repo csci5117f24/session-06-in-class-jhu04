@@ -9,7 +9,7 @@ from authlib.integrations.flask_client import OAuth
 
 app = Flask(__name__)
 app.secret_key = os.environ["APP_SECRET_KEY"]
-db.setup()
+# db.setup()
 
 # oauth = OAuth(app)
 
